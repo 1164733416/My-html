@@ -14,8 +14,9 @@
     body {
         background-color: chartreuse;
         max-width: 640px;
-        margin: 0 auto;
-        width: 100%;
+        margin:  0 auto;
+        width: 100%
+        height: 100%;;
     }
 
     h1 {
@@ -26,11 +27,66 @@
     }
 
     .quik {
-        background-color: cyan;
+        background-color: chartreuse;
         height: 60px;
     }
-    .mote{
+
+    .mote {
         background-color: burlywood;
+    }
+
+    .touxiang {
+        border-radius: 6cm;
+
+    }
+
+    .title1 {
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        white-space: nowrap;
+        line-height: 40px;
+        top: 0px;
+        left: 35px ;
+        margin-left: 35px;
+        /* border: 1px solid black; */
+
+
+    }
+
+    .bottom {
+        position: absolute;
+        top: 408px;
+        left: 333px;
+        width: 100%;
+    }
+
+    .face {
+        top: 60px;
+        float: left;
+        border: 1px solid white;
+        border-radius: 6cm;
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .day {
+        position: absolute;
+        top: 80px;
+        right: 360px;
+        white-space: nowrap;
+
+        border-radius: 60%;
+        color: navy;
+        background-color: rgb(32, 162, 218);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 35px;
+        /* border: 1px solid black; */
+
     }
 </style>
 
@@ -40,10 +96,22 @@
         <h1>国内旅游计划</h1>
     </header>
     <section class="mote">
-        <a href="https://www.bilibili.com/">
-            <img src="./fengjing.jpg" alt="" width="640">
+        <a href="#"><img src="./fengjing.jpg" alt="" width="640px">
         </a>
+        <div class="bottom">
+            <p class="face">
+
+                <img src="touxiang.jpg" alt="" width="38px" height="30px" class=touxiang>
+
+            </p>
+            <h3 class="title1">我的旅游计划</h3>
+
+        </div>
+        <div>
+            <h4 class="day">15天</h4>
+        </div>
     </section>
+
 
 </body>
 
