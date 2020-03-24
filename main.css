@@ -1,0 +1,97 @@
+    html {
+        background-color: burlywood;
+    }
+
+    body {
+        max-width: 640px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+        color: cornsilk;
+        margin-top: 50;
+    }
+
+    .quik {
+        background-color: chartreuse;
+        height: 60px;
+    }
+
+    .mote {
+        background-color: burlywood;
+    }
+
+    .touxiang {
+        border-radius: 50%;
+    }
+
+    .title1 {
+        position: absolute;
+        font-size: 18px;
+        font-weight: bolder;
+        color: white;
+        white-space: nowrap;
+        line-height: 40px;
+        top: 0px;
+        left: 35px;
+        margin-left: 35px;
+        /* border: 1px solid black; */
+    }
+
+    .bottom {
+        position: absolute;
+        top: 408px;
+        left: 333px;
+        width: 100%;
+    }
+
+    .face {
+        float: left;
+        border: 1px solid white;
+        border-radius: 50%;
+        width: 39px;
+        height: 39px;
+    }
+
+    .day {
+        position: absolute;
+        top: 110px;
+        right: 390px;
+        border-radius: 50%;
+        color: navy;
+        background-color: rgb(32, 162, 218);
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 35px;
+        /* border: 1px solid black; */
+    }
+
+    em {
+        font-style: normal;
+        font-weight: bolder;
+    }
+
+    span {
+        margin-left: 30px;
+    }
+
+    .qui-aside {
+        height: 800px;
+        width: 200px;
+        border: 1px solid black;
+        background-color: #2d3741;
+        float: left;
+    }
+    .nav-aside a{
+        font-size: 16px;
+        color: #ce1d5c;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+
+    }
