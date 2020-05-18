@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习JaveScript</title>
+</head>
+<body>
+    <script>
+        function sayHello(){
+        document.writeln("Hello JavaScript!");
+        alert("hello world javascript");
+        }
+        sayHello();
+
+        var sayHelloObject=function(x){
+            document.writeln('<br>')
+            document.writeln('x=',x);
+            
+        }(519)
+// 加括号只能调用1次
+
+
+        // sayHelloObject(518)
+        var study_var=function(){
+            var str1='变量名';
+            var num=1.5;
+            age=23;
+            var cars=new Array("A","B","C");
+            document.writeln("<br>"+str1+"<br>");
+            document.writeln("<br>"+num+"<br>");
+            document.writeln("<br>"+age+"<br>");
+            document.writeln("<br>"+cars+"<br>");
+
+        }
+        study_var();
+
+        var sum=function(start,end){
+            var s=0;
+            var i;
+            for(i=start;i<=end;i++){
+                s=s+i;
+            }
+            document.writeln('<br>'+s);
+
+        }
+        sum(1,100);
+
+        var sumwhile=function(start,end){
+            var s=0;
+            var i=start;
+            while(i<=end){
+                if(i%2==1){
+                    s=s+i;
+                    
+                }
+                i++
+            }
+            document.writeln("<br>"+s);
+        }(1,100);
+        
+        var for_in=function(arr){
+            for(var each in arr){
+                document.writeln('<br>');
+                document.writeln("arr["+each+"]="+arr[each])
+
+            }
+        }(new Array("a","test","1",23,555,[55,1,254,33]))
+    </script>
+</body>
+</html>
